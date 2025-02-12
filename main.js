@@ -1,4 +1,4 @@
-let addbutton = document.querySelector(".addbook-buton")
+let addbutton = document.querySelector(".addbook-button")
 let submitbuton = document.querySelector(".submit-button");
 const form = document.querySelector(".form-card");
 const titleBook = document.getElementById("title");

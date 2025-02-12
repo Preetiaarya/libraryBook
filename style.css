@@ -17,22 +17,26 @@ nav {
     width: 65px;
     height: 30px;
 }
+
 /* -------------------container---------------- */
 
-.addbook-buton-div {
+.addbook-button-div {
     display: flex;
     justify-content: center;
     padding-top: 25px;
 }
-.addbook-buton {
+
+.addbook-button {
     font-size: 24px;
     box-shadow: 4px 5px 6px #888888;
 }
-.addbook-buton:hover {
+
+.addbook-button:hover {
     cursor: pointer;
     transform: scale(1.2);
     font-weight: 400;
 }
+
 .card-div {
     display: flex;
     width: 100%;
@@ -41,6 +45,7 @@ nav {
     visibility: hidden;
     position: absolute;
 }
+
 /* #frame {
     width: 7%;
     height: 20px;
@@ -65,57 +70,51 @@ nav {
     font-size: 1em;
     font-weight: bold;
 }
-.submit-button:hover{
+
+.submit-button:hover {
     cursor: pointer;
     transform: scale(1.3);
     box-shadow: 4px 3px 5px #888888;
 }
 
+input {
+    padding: 4px;
+    border-radius: 7px;
+    box-shadow: 4px 3px 5px #888888;
+}
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: pink;
+    border: 1px solid black;
+}
 
 .notreadbtn {
-    background-color: green;
+    width: 90px;
+    background-color: rgb(0, 153, 153);
     font-size: 1.5em;
-    /* margin-left: 3%; */
     display: block;
-    /* padding-left: 32%; */
-    /* padding-right: 32%; */
+    border-radius: 5px;
 }
 
 .removebtn {
     font-size: 1.5em;
-    /* margin-top: 5%;
-    padding-left: 32%;
-    padding-right: 32%; */
-
 }
 
-.cards {
-    width: 15%;
-    height: 300px;
-    background-color: pink;
-    text-align: center;
-    border: 1px solid black;
-}
-
-#title {
-    /* padding: 2%; */
+#title, #author, #page {
+    
     border: 1px solid black;
     font-size: larger;
 }
 
-#author {
-    /* padding: 2%; */
-    border: 1px solid black;
-    font-size: larger;
-
-}
-
-#page {
-    /* padding: 2%; */
-    border: 1px solid black;
-    font-size: larger;
-}
 
 /* -----------------footer--------------------- */
 .footer {
